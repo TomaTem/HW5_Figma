@@ -1,0 +1,150 @@
+body {
+    background-color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    background: #D8BF95;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#nav {
+    display: flex;
+    box-sizing: border-box;
+    height: 88px;
+    width: 93%;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-flow: row wrap;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 6;
+    float: left;
+}
+#lg {
+    height: 88px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}    
+
+svg {
+    padding: 5px;
+}
+
+.mainpage {
+    clear: both;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainpage img {
+    box-sizing: border-box;
+    width: 33.3%;
+    z-index: -1;
+    position: relative;
+}
+#captions {
+    display: flex;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    color: #FFFFFF;
+    justify-content: space-between;
+    bottom: 160px;
+}
+#captions p {
+    width: fit-content;
+    display: flex;
+    margin: 4% 7% 0 10%;
+    float: left;
+    align-items: flex-end;
+}
+#captions :first-child {
+    margin: 4% 7% 0 2%;
+}
+#captions span {
+    display: flex;
+    justify-self: center;  
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}    
+main section {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    margin-bottom: 8%;
+    margin-top: -3%;
+    padding-left: 7px;
+}
+h1 {
+    font-size: 54px;
+}
+section p {
+    font-size: 18px;
+}
+#items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#items :first-child {
+    font-size: 24px;
+    flex-grow: 1;
+    padding-left: 7px;
+}
+#items :last-child {
+    margin-right: 2%;
+}
+
+.item1, .item2, .item3 {
+    display: flex;
+    box-sizing: border-box;
+    float: left;
+    flex-flow: column wrap;
+    margin: 0;
+    font-size: 18px;
+    width: 33%;
+    height: 90vh;
+}
+.item1 {
+    clear: both;
+    margin-left: 7px;
+}
+.prices1, .prices3 {
+    display: inline-flex;
+    box-sizing: border-box;
+    clear: both;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width:33%;
+    margin-bottom: 20px;
+}
+.prices1 {
+    
+    margin-right: 16.3%;
+    margin-left: 7px;
+}
+.prices3 {
+    margin-left: 16.2%;
+    margin-right: 7px;
+}
+
+
+
+
+
+
+
